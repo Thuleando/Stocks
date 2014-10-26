@@ -1,0 +1,11 @@
+Instructions to Access the Stocks ERD Project
+
+	From within oracle data modeler:
+	1. FILE--OPEN
+	2. navigate to the 'Stocks.dmd' file located in this folder and OPEN it
+	3. make sure the RELATIONAL and PHYSICAL boxes are checked, click OK
+	
+	Once you have successfully opened the project:
+	-- Open the project from within oracle data modeler using FILE--RECENT DESIGNS--STOCKS
+
+
