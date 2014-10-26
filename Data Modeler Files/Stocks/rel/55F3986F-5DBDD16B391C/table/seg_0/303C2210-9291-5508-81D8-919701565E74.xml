@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="303C2210-9291-5508-81D8-919701565E74" name="Stock_Listings">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:51:53 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6C93BF35-A881-26C2-C1C6-5B6EF09D6D77">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:56:14 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_Stocks_ID" id="F2F6D826-9EA2-1CF1-9343-3E499498E1D4">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:57:59 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11373A72-2781-C7D3-517F-FE313D562FD3" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</associations>
+</Column>
+<Column name="Date" id="566B59A7-1361-DE84-E2C4-63640FEBB425">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:53:09 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotSharesOffered" id="4268E080-16B9-823A-3C39-5E1DF4740E76">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:53:09 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SharesSold" id="F4B646C8-C557-3113-BAA0-2649109CD37A">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-25 19:40:09 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NewShares" id="3EF1F302-D874-A4D3-232C-DA260B0ED31E">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-25 20:21:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD91DD45-465A-738E-1D38-B018ADB3507D" name="Stock_Listings_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:53:09 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C93BF35-A881-26C2-C1C6-5B6EF09D6D77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DF43F9A-2967-D733-8B90-19C3BF25390C" name="StockListing_CompanyStock_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:20:57 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F6D826-9EA2-1CF1-9343-3E499498E1D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

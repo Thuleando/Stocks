@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21836F47-D014-BBD7-B28F-0440A446D17F" name="Authorized_Shares">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:03:27 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="124A2116-F958-8483-DA0F-8BF818368451">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:04:07 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_Stocks_ID" id="91D2210B-4531-D3C0-F9F0-C04B6D69A311">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:18:16 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC2DF3DC-6242-362A-B311-A07663DBBBED" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</associations>
+</Column>
+<Column name="TotalShares" id="14386EA4-D5D8-31E7-5915-7F9E3B124178">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:04:40 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AuthorizationDate" id="A2A4E582-64F7-39F0-A308-89C0DFD7B5CB">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:04:59 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADBE16E7-37D2-3104-FD05-3714982E08D4" name="Authorized_Shares_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:04:07 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="124A2116-F958-8483-DA0F-8BF818368451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEC29B60-0D3E-77F5-51E4-41979782C4EF" name="AuthorizedShares_CompanyStock_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:18:16 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D2210B-4531-D3C0-F9F0-C04B6D69A311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

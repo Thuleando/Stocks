@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9998C21-7B8B-BF3E-B620-500C7D0598BF" name="Authorized Shares">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 18:36:23 UTC</createdTime>
+<generatorID>21836F47-D014-BBD7-B28F-0440A446D17F</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D21D86BD-4F36-3266-B997-3CDC1439DD07">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 18:36:23 UTC</createdTime>
+<generatorID>124A2116-F958-8483-DA0F-8BF818368451</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Company Stocks ID" id="5CBABB30-092C-EBCA-A399-925BDD8B0991">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 18:36:23 UTC</createdTime>
+<generatorID>54A4B02F-85E6-BDE3-5E78-E54C36AE3426</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>CDC17F38-C2FA-4418-B6EE-54550AA302D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="TotalShares" id="7B11827A-F54E-BFDF-1C27-F81F9E89116D">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 18:36:23 UTC</createdTime>
+<generatorID>14386EA4-D5D8-31E7-5915-7F9E3B124178</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="AuthorizationDate" id="C3B1854C-90BF-154C-6EC6-50D0D1CED0B8">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 18:36:23 UTC</createdTime>
+<generatorID>A2A4E582-64F7-39F0-A308-89C0DFD7B5CB</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB06DB1F-66CD-1B11-EC50-42A85CAD8105" name="Authorized Shares PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 18:36:23 UTC</createdTime>
+<generatorID>ADBE16E7-37D2-3104-FD05-3714982E08D4</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D21D86BD-4F36-3266-B997-3CDC1439DD07</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

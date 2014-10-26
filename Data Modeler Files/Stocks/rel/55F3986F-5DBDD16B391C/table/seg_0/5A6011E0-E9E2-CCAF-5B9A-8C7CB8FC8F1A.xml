@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A6011E0-E9E2-CCAF-5B9A-8C7CB8FC8F1A" name="Treasury_Transactions">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:41:47 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0FE8DAFD-4A75-FAAD-F4D0-1D25E6C6673E">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:43:08 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_Stocks_ID" id="0FCCA699-A7A0-ED28-814C-DA2835655195">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:18:53 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DD12E02-4BF7-58D7-F247-8E1BD8B8C785" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</associations>
+</Column>
+<Column name="Date" id="AB86B05F-3954-1CF1-5EA8-49D004E40D94">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:43:08 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SizeOfTransaction" id="26D6F8A6-CC74-83DA-CC24-35DD93DF4A08">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:43:08 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotSharesReserved" id="D3B47D73-4A74-CB40-95D4-DCB04A35C72D">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:45:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C95FE50-DCF2-93BF-9785-DFC085021605" name="Treasury_Transactions_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:43:08 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FE8DAFD-4A75-FAAD-F4D0-1D25E6C6673E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46C5E906-C7B8-FE5C-F650-8F0ACD4ED580" name="TreasuryTransactions_CompanyStock_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:18:53 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FCCA699-A7A0-ED28-814C-DA2835655195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

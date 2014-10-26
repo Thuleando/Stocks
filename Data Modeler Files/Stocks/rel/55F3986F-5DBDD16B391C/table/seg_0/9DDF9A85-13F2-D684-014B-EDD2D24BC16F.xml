@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DDF9A85-13F2-D684-014B-EDD2D24BC16F" name="Contact_Infos">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:02:50 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="69503563-D51E-7061-976A-694B7120FD57">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:03:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="561A5B1C-6305-F99B-C803-FA53A2D0FE4F">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:03:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MailingAddress" id="6FDCE3B2-4A7E-756B-D80A-961562F09AF7">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:03:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="5483E648-308B-073B-641E-1E51A7D4C4BE">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:03:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="3D4D4E64-DEA2-F68F-B812-83CC7947B8B9">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:03:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F929758-ED93-59A7-6BDB-D2F20D7E1C15" name="Contact_Infos_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:03:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69503563-D51E-7061-976A-694B7120FD57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

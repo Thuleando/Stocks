@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CD399D9-02E7-F40B-63D9-A5659F657820" name="Transactions">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:04:53 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5C6AFB0F-4E52-1A3B-FDF1-B54DBB54E7AB">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:06:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_Stocks_ID" id="F387BD96-FB9B-FC2A-9AB7-D214321FBCBB">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:57:59 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91FBE9C7-9507-4B90-0A4E-CFB0D9CB8D40" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</associations>
+</Column>
+<Column name="Stock_Types_ID" id="4427F105-1CD3-819E-11EE-7B1BE8CE159A">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 16:53:05 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>70F1D7A3-76D4-3431-B2D0-9477284E20C7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B045932-8979-EA57-258D-2FC4B4FB3F12" referredColumn="70F1D7A3-76D4-3431-B2D0-9477284E20C7"/>
+</associations>
+</Column>
+<Column name="Timestamp" id="7268C207-0C83-FFCE-B53E-2D113381D880">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:06:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StockPrice" id="B16E2FBF-CCE7-22CC-AC82-3F210701EED7">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:06:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumStocks" id="6B14E8C5-D6EB-2FD9-1DB1-B622726396B4">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:06:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D03B6A00-03FA-3545-5B79-9A953D467E04" name="Transactions_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:06:54 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C6AFB0F-4E52-1A3B-FDF1-B54DBB54E7AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD36CC61-A807-682E-60F4-1CC16DD4C973" name="TypeName">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 01:57:10 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4427F105-1CD3-819E-11EE-7B1BE8CE159A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="938DE8B0-5030-9D04-4369-0CCCCA08B51D" name="Transaction_CompanyStock_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:29:17 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F387BD96-FB9B-FC2A-9AB7-D214321FBCBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

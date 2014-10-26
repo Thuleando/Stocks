@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CCDCF16-7652-6899-6BF7-364F635E7587" name="Company_Stocks">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:18:44 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="07F35B65-EB05-64BF-2D13-01861F805E1C">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:29:21 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contact_Infos_ID" id="6ACB66AF-69F7-7BDA-D73B-C17DD5772E59">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:57:01 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>69503563-D51E-7061-976A-694B7120FD57</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E170760-D561-DE7D-E529-A6248E2FE003" referredColumn="69503563-D51E-7061-976A-694B7120FD57"/>
+</associations>
+</Column>
+<Column name="Industry" id="8EA26C8D-CE1C-E973-07FC-B2725CBBB1A8">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:26:04 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<sourceType>System</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exchange" id="BEDDDB96-E58F-E518-A211-A6A6F4D3E535">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:27:07 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Symbol" id="FED4FF3F-23C6-1725-5176-A79FA1953F6A">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:27:07 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IPOValuation" id="2889AD1A-72CD-B7BE-4913-11FAA4726A68">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:27:07 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2402132B-28A1-22D8-5A80-CC7EC07B080F" name="Company_Stocks_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 00:26:04 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92E6F425-0C82-B0B3-AE41-D80B1D7B23DA" name="CompanyStock_Contact Info_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-17 02:57:01 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ACB66AF-69F7-7BDA-D73B-C17DD5772E59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

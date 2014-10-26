@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="00BDD106-BBB7-CFA2-737E-0B772A55C872" name="Transaction_Participants" seqName="seg_0"/>
+   <object objectType="Table" objectID="0F83A52F-B26C-FB37-59D7-DAF05587F26C" name="Stock_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="169246F1-ED11-FC76-60FE-08526DA30F76" name="Holdings" seqName="seg_0"/>
+   <object objectType="Table" objectID="21836F47-D014-BBD7-B28F-0440A446D17F" name="Authorized_Shares" seqName="seg_0"/>
+   <object objectType="Table" objectID="303C2210-9291-5508-81D8-919701565E74" name="Stock_Listings" seqName="seg_0"/>
+   <object objectType="Table" objectID="479B01D0-1710-7986-B3C5-2397215F5665" name="Stock_Types" seqName="seg_0"/>
+   <object objectType="Table" objectID="5A6011E0-E9E2-CCAF-5B9A-8C7CB8FC8F1A" name="Treasury_Transactions" seqName="seg_0"/>
+   <object objectType="Table" objectID="5CD399D9-02E7-F40B-63D9-A5659F657820" name="Transactions" seqName="seg_0"/>
+   <object objectType="Table" objectID="8DB0EF97-0534-5593-9634-C9421042142E" name="Options_Warrants" seqName="seg_0"/>
+   <object objectType="Table" objectID="9CCDCF16-7652-6899-6BF7-364F635E7587" name="Company_Stocks" seqName="seg_0"/>
+   <object objectType="Table" objectID="9DDF9A85-13F2-D684-014B-EDD2D24BC16F" name="Contact_Infos" seqName="seg_0"/>
+   <object objectType="Table" objectID="EE9B7447-1FA5-1F55-778E-8422E2B19AA5" name="Attributes_By_Type" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="11373A72-2781-C7D3-517F-FE313D562FD3" name="StockListing_CompanyStock_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1DD12E02-4BF7-58D7-F247-8E1BD8B8C785" name="TreasuryTransactions_CompanyStock_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2C25D607-FEDD-DB03-0967-84D8BDDDDEAC" name="AttributesByType_StockType_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2F05D0B8-112F-18BA-C206-E5C45990B435" name="TransactionParticipants_Transaction_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3E170760-D561-DE7D-E529-A6248E2FE003" name="CompanyStock_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="441A84FB-FE45-81B8-A250-E75391025915" name="Holdings_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5B045932-8979-EA57-258D-2FC4B4FB3F12" name="TypeName" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="91FBE9C7-9507-4B90-0A4E-CFB0D9CB8D40" name="Transaction_CompanyStock_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9800D1C7-CFBE-4EF7-2D3C-7FEB43F93CA5" name="TransactionParticipants_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AC2DF3DC-6242-362A-B311-A07663DBBBED" name="AuthorizedShares_CompanyStock_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AD00A508-E634-12BC-E0B1-ACCD8263DF9A" name="OptionsAndWarrants_StockType_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AF85DF90-2621-E0F1-8960-CE103E79478A" name="AttributesByType_Stock_Attributes_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B9AA1A68-2169-3955-6811-855021253E27" name="Holdings_StockType_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

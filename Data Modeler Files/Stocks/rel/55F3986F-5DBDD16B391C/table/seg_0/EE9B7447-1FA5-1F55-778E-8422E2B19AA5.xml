@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE9B7447-1FA5-1F55-778E-8422E2B19AA5" name="Attributes_By_Type">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:05:59 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stock_Types_ID" id="A98B54A5-530A-E435-D66B-79C406B60058">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:15:05 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>70F1D7A3-76D4-3431-B2D0-9477284E20C7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C25D607-FEDD-DB03-0967-84D8BDDDDEAC" referredColumn="70F1D7A3-76D4-3431-B2D0-9477284E20C7"/>
+</associations>
+</Column>
+<Column name="Stock_Attributes_ID" id="9D43F79A-E99E-BAC1-1CBA-60378F8A13B5">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:15:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>F943EE63-CE19-520B-C0D1-AC861713A7BE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF85DF90-2621-E0F1-8960-CE103E79478A" referredColumn="F943EE63-CE19-520B-C0D1-AC861713A7BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ECFAA4E-0593-CEDB-FF84-8E96FA37C387" name="Attributes_By_Type_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:15:48 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98B54A5-530A-E435-D66B-79C406B60058"/>
+<colUsage columnID="9D43F79A-E99E-BAC1-1CBA-60378F8A13B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44398FA9-E2A7-9F63-E647-085420E770E7" name="AttributesByType_StockType_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:15:05 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98B54A5-530A-E435-D66B-79C406B60058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1912C05F-04D7-3CF9-D4D4-9669B0CC8D5F" name="AttributesByType_Stock_Attributes_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-24 17:15:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D43F79A-E99E-BAC1-1CBA-60378F8A13B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00BDD106-BBB7-CFA2-737E-0B772A55C872" name="Transaction_Participants">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:07:29 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contact_Infos_ID" id="2A71A155-E070-CA55-5C33-391005D30783">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:08:37 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>69503563-D51E-7061-976A-694B7120FD57</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9800D1C7-CFBE-4EF7-2D3C-7FEB43F93CA5" referredColumn="69503563-D51E-7061-976A-694B7120FD57"/>
+</associations>
+</Column>
+<Column name="Transactions_ID" id="BB0B89D6-BFCB-C056-270B-B5F47DE9D71E">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:09:10 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>5C6AFB0F-4E52-1A3B-FDF1-B54DBB54E7AB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F05D0B8-112F-18BA-C206-E5C45990B435" referredColumn="5C6AFB0F-4E52-1A3B-FDF1-B54DBB54E7AB"/>
+</associations>
+</Column>
+<Column name="Role" id="F1FBF0E3-716C-334E-EAA8-E24274B75AA2">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:12:49 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B876FAE9-3110-22B8-BE26-BE2675872631" name="Transaction_Participants_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:11:01 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A71A155-E070-CA55-5C33-391005D30783"/>
+<colUsage columnID="BB0B89D6-BFCB-C056-270B-B5F47DE9D71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5423F81-A88B-F44B-21CF-BCEAEF859713" name="TransactionParticipants_Contact Info_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:08:37 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A71A155-E070-CA55-5C33-391005D30783"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA80A29B-762F-02BF-7B4A-ED5479862DEE" name="TransactionParticipants_Transaction_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-21 22:09:10 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB0B89D6-BFCB-C056-270B-B5F47DE9D71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
