@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506C5BBF-212B-087A-AC59-95186260A8E8" name="Company Stocks">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08AA4979-A5D5-E1C7-8F0B-D896F0269902" name="Stock Listings">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>9CCDCF16-7652-6899-6BF7-364F635E7587</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>303C2210-9291-5508-81D8-919701565E74</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="CDC17F38-C2FA-4418-B6EE-54550AA302D1">
+<Attribute name="ID" id="2D046548-567F-9A6A-D95C-3F342C7DF39C">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>07F35B65-EB05-64BF-2D13-01861F805E1C</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>6C93BF35-A881-26C2-C1C6-5B6EF09D6D77</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
@@ -29,86 +29,80 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Contact Infos ID" id="4FEC9C52-C475-2B92-FA35-3C8122CF4898">
+<Attribute name="Company Stocks ID" id="B88DFD4F-7415-4A79-608A-C37B123EAEAB">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>22D262BB-C0F1-6E95-D1C7-DFAF1AD82DE5</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>A662C886-D5DD-6D8C-CE7D-D512C0E43E60</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<referedAttribute>AC895CD1-1B46-CD85-8968-1E0718A941CA</referedAttribute>
+<referedAttribute>E66EFEDD-55CA-0BA7-0725-26CCC69C468F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Industry" id="F23BF4BE-AFC1-8339-8684-AAB8A6C56F6E">
+<Attribute name="Date" id="6B4B6BF5-4D3E-07AE-3C71-232F121469AC">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>8EA26C8D-CE1C-E973-07FC-B2725CBBB1A8</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>566B59A7-1361-DE84-E2C4-63640FEBB425</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<sourceType>System</sourceType>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
+<logicalDatatype>LOGDT007</logicalDatatype>
 </Attribute>
-<Attribute name="Exchange" id="A1D4D539-B0FB-8EFE-E617-0AFBE36A3B15">
+<Attribute name="TotSharesOffered" id="687A4BF1-894D-ED33-AB8C-28BF92BB3CCC">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>BEDDDB96-E58F-E518-A211-A6A6F4D3E535</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>4268E080-16B9-823A-3C39-5E1DF4740E76</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="Symbol" id="4EE3A553-CFF2-4E80-F915-F9C4E6F49A2C">
+<Attribute name="SharesSold" id="E6D00FD2-A4AB-CB9F-F1B2-D841BC328791">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>FED4FF3F-23C6-1725-5176-A79FA1953F6A</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>F4B646C8-C557-3113-BAA0-2649109CD37A</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="IPOValuation" id="C11345C6-CD64-D8A0-715D-F622DBC97065">
+<Attribute name="NewShares" id="248EE35B-4037-1342-D1F7-562898F7F728">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>2889AD1A-72CD-B7BE-4913-11FAA4726A68</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>3EF1F302-D874-A4D3-232C-DA260B0ED31E</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<dataTypeScale>4</dataTypeScale>
+<logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D4DE622A-E956-EE80-8FDA-2E3EBC6D14A6" name="Company Stocks PK">
+<identifier id="A2902E01-E7B1-2B73-3B4D-6FD49D8E06C9" name="Stock Listings PK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>2402132B-28A1-22D8-5A80-CC7EC07B080F</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>CD91DD45-465A-738E-1D38-B018ADB3507D</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>CDC17F38-C2FA-4418-B6EE-54550AA302D1</newElementsIDs>
+<newElementsIDs>2D046548-567F-9A6A-D95C-3F342C7DF39C</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

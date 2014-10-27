@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7173940-4A1D-DAF7-0241-A24C7C66BBC4" name="Options Warrants">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="542C8759-2C57-DC6B-6D6F-3D6A3BE6A7D4" name="Contact Infos">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>8DB0EF97-0534-5593-9634-C9421042142E</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>9DDF9A85-13F2-D684-014B-EDD2D24BC16F</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="8C8C5DBF-992D-1070-A3EC-DEC6F0C5D3C7">
+<Attribute name="ID" id="6F0F51DC-596C-907A-D7B6-81B954C55B58">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>81C4CFD5-333C-D521-D194-D0EEA77C730C</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>69503563-D51E-7061-976A-694B7120FD57</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
@@ -29,80 +29,71 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Stock Types ID" id="2A58391E-E908-DB17-2743-FDC25B042B39">
+<Attribute name="Name" id="733BD1E0-D9E5-8BE7-6097-ADA5F9F114C7">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>27942926-7DB3-95BD-16E7-B1D0E3EDA8A2</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>561A5B1C-6305-F99B-C803-FA53A2D0FE4F</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<referedAttribute>0AE248CE-95DF-EE94-53BA-D9A21C56FBC0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
+<dataTypeSize>40</dataTypeSize>
 </Attribute>
-<Attribute name="Issued" id="7F1341B5-19E5-4D86-B8D9-6DFDFA9F52FF">
+<Attribute name="MailingAddress" id="E0ADDA78-EA27-958F-A492-F7DA2B329E9F">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>526DE15E-9A6C-F6F4-9D6E-B066F2E31315</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>6FDCE3B2-4A7E-756B-D80A-961562F09AF7</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
 </Attribute>
-<Attribute name="Expiration" id="0E6FC5B7-2A90-B7CF-A727-F9C428F08A8B">
+<Attribute name="Email" id="19B59283-012D-D991-4D7F-027106728582">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>4B1D9005-433D-78EC-49E2-C38D37CA2138</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>5483E648-308B-073B-641E-1E51A7D4C4BE</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
 </Attribute>
-<Attribute name="Offering" id="911CDDD5-33E8-FA80-4848-3E92F910689E">
+<Attribute name="Phone" id="46F603C1-D4E5-ACCD-C51A-F6D0EBB6C6E1">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>CDE926F6-102A-2B31-8373-F4C6D40C9D14</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>3D4D4E64-DEA2-F68F-B812-83CC7947B8B9</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="Redeemed" id="B1416F8D-466D-2A02-2808-2D4BAC14C35A">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>E7BA970F-57E8-F96F-1882-4A086C107ABD</generatorID>
-<ownerDesignName>Stocks</ownerDesignName>
-<engineerTo>
-<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6E7CD6CA-D54E-4E19-7DFE-BB2E1460AAF5" name="Options Warrants PK">
+<identifier id="17E782FF-853E-DEBB-75C8-636C12CC409B" name="Contact Infos PK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>0E26D1CA-6DA0-79C7-40FF-AF48B0A35AAE</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>3F929758-ED93-59A7-6BDB-D2F20D7E1C15</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>8C8C5DBF-992D-1070-A3EC-DEC6F0C5D3C7</newElementsIDs>
+<newElementsIDs>6F0F51DC-596C-907A-D7B6-81B954C55B58</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FFD3BEE-8A06-5FDF-56E1-4EC96F77AF16" name="Transaction Participants">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3475545-0F53-70C7-AE11-100B6B6EAE79" name="Stock Types">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>00BDD106-BBB7-CFA2-737E-0B772A55C872</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>479B01D0-1710-7986-B3C5-2397215F5665</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
@@ -16,58 +16,58 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Contact Infos ID" id="885ADBC4-B42F-AFE2-0621-C456A714E19B">
+<Attribute name="ID" id="1F2BCA67-656C-E1E1-257F-7F508149DEBA">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>CA78A695-A43C-4148-8FF1-727854BE537C</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>70F1D7A3-76D4-3431-B2D0-9477284E20C7</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<referedAttribute>AC895CD1-1B46-CD85-8968-1E0718A941CA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Transactions ID" id="9FFBE83C-8A6B-E6BD-67CB-EF7CFC086945">
+<Attribute name="TypeName" id="E1FEF7AF-5389-9139-E238-9F7B3765C679">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>3881D62F-58C4-2759-D6A1-73C7B33CD2BA</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>C8CD46B4-43A2-59D6-41AE-BA45B769B763</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<referedAttribute>CFB91CD3-9D09-76AB-C800-0152A4009D88</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
+<dataTypeSize>40</dataTypeSize>
 </Attribute>
-<Attribute name="Role" id="83281C58-9D9B-4937-DF87-E27BE76B0A10">
+<Attribute name="Description" id="65E15704-AD43-D80E-CD0D-375EABC0C5DD">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>F1FBF0E3-716C-334E-EAA8-E24274B75AA2</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>71B23305-9400-11A3-5C76-FC4C3B969EF4</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2E932324-62A4-7659-2E1D-90417752E45C" name="Transaction Participants PK">
+<identifier id="E422BDB6-59DD-04C7-7376-0C723729AE51" name="Stock Types PK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 18:36:23 UTC</createdTime>
-<generatorID>B876FAE9-3110-22B8-BE26-BE2675872631</generatorID>
+<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<generatorID>CBA0F4DC-978D-8172-6F07-117F515F6E76</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>CA78A695-A43C-4148-8FF1-727854BE537C,3881D62F-58C4-2759-D6A1-73C7B33CD2BA</newElementsIDs>
+<newElementsIDs>1F2BCA67-656C-E1E1-257F-7F508149DEBA</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

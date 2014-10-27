@@ -16,6 +16,21 @@
 <dataTypeSize>20</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Company_Stocks_ID" id="0938AB23-ECBD-2DD3-528B-02724066F6B1">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-27 18:53:47 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1B3AC4C-F139-A655-DF7A-25F210FBD968" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</associations>
+</Column>
 <Column name="Stock_Types_ID" id="B0287638-2033-0025-C4D4-F06A7D88FB48">
 <createdBy>Jason</createdBy>
 <createdTime>2014-10-24 16:54:37 UTC</createdTime>
@@ -88,6 +103,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B0287638-2033-0025-C4D4-F06A7D88FB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0238E5D-200B-18FA-4549-CCE2C623D4EA" name="Options_Warrants_Company_Stocks_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-27 18:53:47 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0938AB23-ECBD-2DD3-528B-02724066F6B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
