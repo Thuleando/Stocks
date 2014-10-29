@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StockListing_CompanyStock_FK" directorySegmentName="seg_0" id="A662C886-D5DD-6D8C-CE7D-D512C0E43E60">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Transaction_CompanyStock_FK" directorySegmentName="seg_0" id="EC6EDE4D-2BCD-AD7B-E749-523D7716E2DC">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>11373A72-2781-C7D3-517F-FE313D562FD3</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>91FBE9C7-9507-4B90-0A4E-CFB0D9CB8D40</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<sourcePk>FB725C20-DE8B-CAC3-7D70-49F1ADCE6014</sourcePk>
+<sourcePk>42E77B64-0DAE-BD09-669C-796847134CEE</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>E3D98954-0793-6C34-2685-835588A5BE3B</sourceEntity>
+<sourceEntity>155FA142-1F1A-2DE7-5DED-99385D0E1FAA</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>08AA4979-A5D5-E1C7-8F0B-D896F0269902</targetEntity>
+<targetEntity>6FB76A6A-E609-0CC0-537E-8D050C41601A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="542C8759-2C57-DC6B-6D6F-3D6A3BE6A7D4" name="Contact Infos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="347AE20D-362E-08DF-488D-4107B83EEF3B" name="Holdings">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>9DDF9A85-13F2-D684-014B-EDD2D24BC16F</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>169246F1-ED11-FC76-60FE-08526DA30F76</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
@@ -16,84 +16,80 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="6F0F51DC-596C-907A-D7B6-81B954C55B58">
+<Attribute name="ID" id="7A4989F5-030E-02A7-3366-A5A05521C8C5">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>69503563-D51E-7061-976A-694B7120FD57</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>7ADEB5AF-127E-AE7C-CCB7-939B036DC6D6</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Contact Infos ID" id="BAEAB1EE-CD49-E933-7A58-4C2A132A19BD">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>1FB14C51-3FA3-8611-F79A-0110DC63F3D5</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>BC221633-063F-F7E0-BCE7-199B2A0E60D5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Name" id="733BD1E0-D9E5-8BE7-6097-ADA5F9F114C7">
+<Attribute name="Stock Types ID" id="1945338C-AED4-A87B-7CB5-EAE630CA41A6">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>561A5B1C-6305-F99B-C803-FA53A2D0FE4F</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>15A4BD64-D3D0-462F-6D25-3B05E31BDE93</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
+<referedAttribute>14C84925-3DB2-EA39-3FC9-CDA3D173C898</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
+<dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="MailingAddress" id="E0ADDA78-EA27-958F-A492-F7DA2B329E9F">
+<Attribute name="NumStocksOwned" id="356082B7-9E10-1663-E04C-E50D2CFDB993">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>6FDCE3B2-4A7E-756B-D80A-961562F09AF7</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>F1335C2E-29EA-FE3A-6F4D-902906C52A96</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-</Attribute>
-<Attribute name="Email" id="19B59283-012D-D991-4D7F-027106728582">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>5483E648-308B-073B-641E-1E51A7D4C4BE</generatorID>
-<ownerDesignName>Stocks</ownerDesignName>
-<engineerTo>
-<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-</Attribute>
-<Attribute name="Phone" id="46F603C1-D4E5-ACCD-C51A-F6D0EBB6C6E1">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>3D4D4E64-DEA2-F68F-B812-83CC7947B8B9</generatorID>
-<ownerDesignName>Stocks</ownerDesignName>
-<engineerTo>
-<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<Attribute name="Last Modified" id="CAB1AE63-B04E-24BF-CAC5-C734460EC1F9">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>9328428C-2C6F-09EE-5C45-33262E6A479A</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="17E782FF-853E-DEBB-75C8-636C12CC409B" name="Contact Infos PK">
+<identifier id="1746D139-DF59-A45A-52C1-0D733EEC53FE" name="Holdings PK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>3F929758-ED93-59A7-6BDB-D2F20D7E1C15</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>F8445E7A-AF20-A9F6-6128-96F1795C9A61</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>6F0F51DC-596C-907A-D7B6-81B954C55B58</newElementsIDs>
+<newElementsIDs>7A4989F5-030E-02A7-3366-A5A05521C8C5</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

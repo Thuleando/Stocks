@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08AA4979-A5D5-E1C7-8F0B-D896F0269902" name="Stock Listings">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6319B04B-024B-6E51-A166-B585F9074415" name="Stock Listings">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>303C2210-9291-5508-81D8-919701565E74</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="2D046548-567F-9A6A-D95C-3F342C7DF39C">
+<Attribute name="ID" id="F656D84F-708B-FE7E-D3DE-629313B01962">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>6C93BF35-A881-26C2-C1C6-5B6EF09D6D77</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
@@ -29,23 +29,23 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Company Stocks ID" id="B88DFD4F-7415-4A79-608A-C37B123EAEAB">
+<Attribute name="Company Stocks ID" id="0D5B51ED-E555-8181-FE2A-6DD9BE6060C9">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
-<generatorID>A662C886-D5DD-6D8C-CE7D-D512C0E43E60</generatorID>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
+<generatorID>8C5B840B-EF55-3AA2-ADB6-C732F7ECD832</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
-<referedAttribute>E66EFEDD-55CA-0BA7-0725-26CCC69C468F</referedAttribute>
+<referedAttribute>67E349BD-C43E-361D-2238-2F26D301F9D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 </Attribute>
-<Attribute name="Date" id="6B4B6BF5-4D3E-07AE-3C71-232F121469AC">
+<Attribute name="Date" id="722999BF-027A-070E-8462-ABF2E72EA561">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>566B59A7-1361-DE84-E2C4-63640FEBB425</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
@@ -55,9 +55,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 </Attribute>
-<Attribute name="TotSharesOffered" id="687A4BF1-894D-ED33-AB8C-28BF92BB3CCC">
+<Attribute name="TotSharesOffered" id="839382A6-2416-AC50-5B3E-0BD805B6D9AD">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>4268E080-16B9-823A-3C39-5E1DF4740E76</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
@@ -67,9 +67,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="SharesSold" id="E6D00FD2-A4AB-CB9F-F1B2-D841BC328791">
+<Attribute name="SharesSold" id="78FCBFCF-F870-4448-5DBD-A312D3C3E080">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>F4B646C8-C557-3113-BAA0-2649109CD37A</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
@@ -79,9 +79,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="NewShares" id="248EE35B-4037-1342-D1F7-562898F7F728">
+<Attribute name="NewShares" id="792284BC-708A-7842-1D85-EB9236A5CFF7">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>3EF1F302-D874-A4D3-232C-DA260B0ED31E</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
@@ -93,16 +93,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A2902E01-E7B1-2B73-3B4D-6FD49D8E06C9" name="Stock Listings PK">
+<identifier id="957C7EB2-7B25-A86D-0049-9591BC29F0DE" name="Stock Listings PK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-27 19:03:20 UTC</createdTime>
+<createdTime>2014-10-29 00:44:08 UTC</createdTime>
 <generatorID>CD91DD45-465A-738E-1D38-B018ADB3507D</generatorID>
 <ownerDesignName>Stocks</ownerDesignName>
 <engineerTo>
 <item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>2D046548-567F-9A6A-D95C-3F342C7DF39C</newElementsIDs>
+<newElementsIDs>F656D84F-708B-FE7E-D3DE-629313B01962</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>
