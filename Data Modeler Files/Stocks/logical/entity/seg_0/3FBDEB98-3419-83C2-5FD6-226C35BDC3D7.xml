@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FBDEB98-3419-83C2-5FD6-226C35BDC3D7" name="Stock Listings">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>303C2210-9291-5508-81D8-919701565E74</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E6367E2E-75A9-09D9-8C8F-6DA8320FD8E8">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>6C93BF35-A881-26C2-C1C6-5B6EF09D6D77</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Companies ID" id="8E7E1471-DC12-DC2E-3465-5BC90E2505ED">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>C27A4D07-8A31-C646-904E-9484B1509E7C</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>733E33E0-2A75-1B77-8E52-A8A3D38EF826</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Date" id="1F75BEAC-5C24-0F8E-1CD0-5E7B3846DA5D">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>566B59A7-1361-DE84-E2C4-63640FEBB425</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="TotSharesOffered" id="FA8B0896-29D0-2244-D147-88165748D808">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>4268E080-16B9-823A-3C39-5E1DF4740E76</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SharesSold" id="915496AC-C277-81B1-EBF5-9771F54726EF">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>F4B646C8-C557-3113-BAA0-2649109CD37A</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="NewShares" id="A302160B-B665-9983-BCCB-3B897D359D91">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>3EF1F302-D874-A4D3-232C-DA260B0ED31E</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Stock Types ID" id="B821758C-EA05-6C52-5EF0-EC4EE0785228">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>74BF16D9-CB03-4477-C2BB-2A14D7FE395E</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>ACCDECF3-6A16-D8A8-00C8-AB889581B95F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D025C8D-1245-53AE-E6DD-416BA51EAD52" name="Stock Listings PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>CD91DD45-465A-738E-1D38-B018ADB3507D</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E6367E2E-75A9-09D9-8C8F-6DA8320FD8E8</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

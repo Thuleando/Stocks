@@ -67,6 +67,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Stock_Types_ID" id="B9F2C2A4-8F85-63DE-E8D7-0C587CD7F593">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:22:41 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>70F1D7A3-76D4-3431-B2D0-9477284E20C7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8C5F8BA-E24D-36CF-53B4-4D75CAA4F762" referredColumn="70F1D7A3-76D4-3431-B2D0-9477284E20C7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CD91DD45-465A-738E-1D38-B018ADB3507D" name="Stock_Listings_PK">
@@ -88,6 +103,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="38638863-A6EF-8052-E6F4-DD3D36C17FC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="088F595A-5C7A-882E-C367-8EDF5C3A5F48" name="Stock_Listings_Stock_Types_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:22:41 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9F2C2A4-8F85-63DE-E8D7-0C587CD7F593"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

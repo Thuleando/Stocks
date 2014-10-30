@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Treasury_Transactions_Companies_FK" directorySegmentName="seg_0" id="3C428E2C-ADAE-64B7-217B-53EFB289C262">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>41CA0CD0-FDB7-98D9-B3EE-6092AA0312B8</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<sourcePk>49182D96-5FB0-79BB-9F1D-EC818A828529</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0C6B8E1-C027-A5F0-638F-B26097408A1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8B437C9-9176-8FFF-48B5-026C242980FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

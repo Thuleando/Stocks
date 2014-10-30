@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F049D35-5880-020B-4E9C-014E07B337E0" name="Buy Offers">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>248FB85E-F53D-A702-EEEA-02DE920E6B32</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0D2F052A-64D8-4E66-2C2F-F8D6A20C7806">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>0EBCFD7E-3C4C-096A-5D6B-F43B9C16F3F5</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Listed Companies ID" id="6C44DA6D-D01C-AB39-0524-FF89D22FA6B2">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>B3741EC2-1928-885D-1BC9-AC1708BD2B4F</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>EDD940E2-1572-69BF-7083-DDB6B616FEEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Stock Types ID" id="A348E163-49F1-EA59-551F-93826F73E53B">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>C2A27A3F-CD18-626E-3742-44BC883BD4A9</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>ACCDECF3-6A16-D8A8-00C8-AB889581B95F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Clients ID" id="247F1644-12E2-86CB-3311-3C4BB21B4824">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>97A080B1-8155-8B61-D977-BDE2C72AFB6A</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>5CB097C1-838D-B9FC-B561-5D1BAB65CB7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="OfferDate" id="1549EF7E-2C54-7CB0-183C-C185710C0D99">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>EFB6ECCD-BDF5-C558-9B98-93AAE280CA92</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="NumOfShares" id="8AE6671C-7A04-87A6-B5EA-C946FA793C93">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>28C4D460-045E-390B-DF7F-1B163D50A74E</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="ExpirationDate" id="858BE23B-CB3E-F586-0EA8-32D9DBCA78B7">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>59C0FB17-B4E6-26AF-6834-F12E40E128BE</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="Price" id="6FDCD8EE-2BF5-B4CA-C8F6-62D13055BC9F">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>C958654F-91BE-1978-5769-A585A8DC3E27</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F59BDB2-4E5F-D947-0267-FD228213A235" name="Sell Offersv1 PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>F4F456AD-AF9B-4277-75F9-E568E5BAB325</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0D2F052A-64D8-4E66-2C2F-F8D6A20C7806</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

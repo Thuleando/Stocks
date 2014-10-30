@@ -31,6 +31,21 @@
 <colAssociation fkAssociation="A8EECEBB-76C6-497B-155E-7834C24F94E9" referredColumn="C8B1C8C9-1C49-F534-1453-68F091B1C5C4"/>
 </associations>
 </Column>
+<Column name="Stock_Types_ID" id="9149958E-AB00-92E8-08A3-7B8ECB9896B6">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:14:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>70F1D7A3-76D4-3431-B2D0-9477284E20C7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F22AC41-875E-2A11-D477-881CA62A118D" referredColumn="70F1D7A3-76D4-3431-B2D0-9477284E20C7"/>
+</associations>
+</Column>
 <Column name="TotalShares" id="14386EA4-D5D8-31E7-5915-7F9E3B124178">
 <createdBy>Jason</createdBy>
 <createdTime>2014-10-24 17:04:40 UTC</createdTime>
@@ -62,6 +77,17 @@
 <colUsage columnID="124A2116-F958-8483-DA0F-8BF818368451"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="2703809D-0568-8FE0-9424-BAD4B3ED04E8" name="Authorized_Shares__UN">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:15:39 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9149958E-AB00-92E8-08A3-7B8ECB9896B6"/>
+<colUsage columnID="F50C173A-B082-BE5F-B005-B1146B55DA41"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="8CAC8288-F32D-16DA-D437-791F4DE7DF9B" name="Authorized_Shares_Companies_FK">
 <createdBy>Jason</createdBy>
 <createdTime>2014-10-30 01:38:34 UTC</createdTime>
@@ -70,6 +96,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F50C173A-B082-BE5F-B005-B1146B55DA41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D957101E-0983-9C81-2C2C-ED2214B5E6DE" name="Authorized_Shares_Stock_Types_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:14:33 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9149958E-AB00-92E8-08A3-7B8ECB9896B6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

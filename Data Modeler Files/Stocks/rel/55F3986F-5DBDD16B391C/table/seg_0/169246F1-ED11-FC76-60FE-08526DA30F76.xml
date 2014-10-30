@@ -13,21 +13,6 @@
 <use>0</use>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Contact_Infos_ID" id="45F438C6-F1E6-A64C-2E35-2977790214D7">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-17 02:15:22 UTC</createdTime>
-<ownerDesignName>Stocks</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<delegate>69503563-D51E-7061-976A-694B7120FD57</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="441A84FB-FE45-81B8-A250-E75391025915" referredColumn="69503563-D51E-7061-976A-694B7120FD57"/>
-</associations>
-</Column>
 <Column name="Stock_Types_ID" id="584D6642-9A2F-D19F-901E-E60F67C6DB2E">
 <createdBy>Jason</createdBy>
 <createdTime>2014-10-24 16:53:05 UTC</createdTime>
@@ -61,6 +46,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Clients_ID" id="BD3B1C28-3AD7-A795-7485-8DD7CB557DBE">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:20:32 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77E42855-D451-D62B-1518-71D504A3C81A" referredColumn="2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F8445E7A-AF20-A9F6-6128-96F1795C9A61" name="Holdings_PK">
@@ -74,16 +74,6 @@
 <colUsage columnID="7ADEB5AF-127E-AE7C-CCB7-939B036DC6D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="29C4A62D-BED6-2C6E-DEF2-E71A37E256AA" name="Holdings_Contact Info_FK">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-17 02:15:22 UTC</createdTime>
-<ownerDesignName>Stocks</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="45F438C6-F1E6-A64C-2E35-2977790214D7"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="327687B7-1C96-C17C-EF2E-9D5FDB6D35D9" name="Holdings_StockType_FK">
 <createdBy>Jason</createdBy>
 <createdTime>2014-10-17 02:15:48 UTC</createdTime>
@@ -92,6 +82,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="584D6642-9A2F-D19F-901E-E60F67C6DB2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7584490-796D-DE6E-1EFD-B06450087040" name="Holdings_Clients_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:20:32 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD3B1C28-3AD7-A795-7485-8DD7CB557DBE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

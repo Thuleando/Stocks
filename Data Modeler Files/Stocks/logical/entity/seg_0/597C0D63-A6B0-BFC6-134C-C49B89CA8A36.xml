@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="597C0D63-A6B0-BFC6-134C-C49B89CA8A36" name="Attributes By Type">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>EE9B7447-1FA5-1F55-778E-8422E2B19AA5</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Stock Types ID" id="4BCE0C97-E00A-D5C6-3844-AB46B8053E97">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>C281FF14-A0C2-1FFD-1584-5CC40E45720F</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>ACCDECF3-6A16-D8A8-00C8-AB889581B95F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Stock Attributes ID" id="C5D94C7F-A347-4C13-F692-FF1AD9D28456">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>18B35D6A-077A-1C04-49EA-8AD26BF6AB43</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>C7961012-64D1-009E-258F-A8C14C9990C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F73E9CF-5E7F-40E0-8175-DBC77AB843DD" name="Attributes By Type PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>6ECFAA4E-0593-CEDB-FF84-8E96FA37C387</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C281FF14-A0C2-1FFD-1584-5CC40E45720F,18B35D6A-077A-1C04-49EA-8AD26BF6AB43</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

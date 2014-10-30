@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10D99A0D-245B-1273-98FE-5F9C74E7305C" name="Clients">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>9761AA47-1569-6526-4BFF-654A1E75D7D8</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5CB097C1-838D-B9FC-B561-5D1BAB65CB7B">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Contact Infos ID" id="5697DA9A-956A-4011-920A-10BC11716031">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>4546242C-AA11-E844-605B-A75E23162EB4</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>B9EEC936-1B6F-1BE7-74B1-2E2FDD83CDA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Companies ID" id="EB78CD0F-DEDB-6632-8F88-CEF26B345BE3">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>30672B45-2071-E23C-FD4F-C9A27D80748E</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>733E33E0-2A75-1B77-8E52-A8A3D38EF826</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="216DF051-BEAA-2A51-20F2-4BE93B2E1BC6" name="Clients PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>0A022E4C-6163-77C7-570E-152678D28B2A</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5CB097C1-838D-B9FC-B561-5D1BAB65CB7B</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

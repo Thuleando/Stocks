@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sell_Offers_Clients_FK" directorySegmentName="seg_0" id="B0AEEF22-2FDD-94D4-ABBF-1CA99C1C2808">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 17:52:42 UTC</createdTime>
+<generatorID>C7A3CA0F-5785-7602-A8C2-F606AB226A30</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<sourcePk>216DF051-BEAA-2A51-20F2-4BE93B2E1BC6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10D99A0D-245B-1273-98FE-5F9C74E7305C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4951034C-7243-26FD-52EF-F57DAAE6390F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

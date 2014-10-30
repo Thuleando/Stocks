@@ -18,14 +18,16 @@
    <object objectType="FKIndexAssociation" objectID="2C25D607-FEDD-DB03-0967-84D8BDDDDEAC" name="AttributesByType_StockType_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="AF85DF90-2621-E0F1-8960-CE103E79478A" name="AttributesByType_Stock_Attributes_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="A8EECEBB-76C6-497B-155E-7834C24F94E9" name="Authorized_Shares_Companies_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7F22AC41-875E-2A11-D477-881CA62A118D" name="Authorized_Shares_Stock_Types_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="216E9EB2-FBFE-9D75-D540-06530E70DDD8" name="Buy_Offers_Clients_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="F2997FF9-7BA0-69C3-27C7-E15E2BDA44D9" name="Buy_Offers_Company_Stocks_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="0984192D-9602-BAC3-7528-D21F809FC085" name="Buy_Offers_Stock_Types_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D9B0D689-635E-A25D-00D4-BD270928B3FF" name="Clients_Companies_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="EAEFFD3D-0B38-2824-915D-35766099F584" name="Clients_Contact_Infos_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="830138B7-1111-8940-9934-0D7A018A3901" name="Companies_Company_Stocks_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="3E170760-D561-DE7D-E529-A6248E2FE003" name="CompanyStock_Contact Info_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D9B0D689-635E-A25D-00D4-BD270928B3FF" name="Clients_Companies_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="441A84FB-FE45-81B8-A250-E75391025915" name="Holdings_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B8C5F8BA-E24D-36CF-53B4-4D75CAA4F762" name="Stock_Listings_Stock_Types_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="77E42855-D451-D62B-1518-71D504A3C81A" name="Holdings_Clients_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="B9AA1A68-2169-3955-6811-855021253E27" name="Holdings_StockType_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C7A3CA0F-5785-7602-A8C2-F606AB226A30" name="Sell_Offers_Clients_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="7DD92607-E0C6-9CA3-CB8B-53C15E8E8EC5" name="Sell_Offers_Company_Stocks_FK" seqName="seg_0"/>
