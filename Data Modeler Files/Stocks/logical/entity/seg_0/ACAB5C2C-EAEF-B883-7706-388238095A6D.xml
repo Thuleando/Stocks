@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACAB5C2C-EAEF-B883-7706-388238095A6D" name="Ticker Symbols">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 19:40:28 UTC</createdTime>
+<generatorID>04A93FD0-F210-33F4-C7EA-542B1D62C886</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="AE895577-6448-4925-5935-C1446C8F7FB4">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 19:40:28 UTC</createdTime>
+<generatorID>9519CE3B-DE69-BB03-EF85-625773B1F43E</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="Symbol" id="F0836419-999B-69B7-21BB-271808C134D3">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 19:40:28 UTC</createdTime>
+<generatorID>5B8311EB-663D-795D-2552-5D18487D57CC</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="929A1530-8B97-67D5-7B52-646D24C5CF2A" name="Ticker Symbols PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 19:40:28 UTC</createdTime>
+<generatorID>AB973070-0DD4-8980-3C13-190CA5986A21</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AE895577-6448-4925-5935-C1446C8F7FB4</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

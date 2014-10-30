@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Buy_Offers_Company_Stocks_FK" directorySegmentName="seg_0" id="DD653F16-838F-F044-E9E5-F99F6AD863FE">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 19:40:28 UTC</createdTime>
+<generatorID>F2997FF9-7BA0-69C3-27C7-E15E2BDA44D9</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<sourcePk>E271DF72-5868-B9AC-FE7E-F36160ACE13A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5B66017-A7F5-2A9F-3E26-DA2DC2D50473</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D150C01-E5BC-955E-1474-1515838603A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

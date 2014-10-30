@@ -52,27 +52,6 @@
 <dataTypeSize>10</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Symbol" id="FED4FF3F-23C6-1725-5176-A79FA1953F6A">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-17 00:27:07 UTC</createdTime>
-<ownerDesignName>Stocks</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="IPOValuation" id="2889AD1A-72CD-B7BE-4913-11FAA4726A68">
-<createdBy>Jason</createdBy>
-<createdTime>2014-10-17 00:27:07 UTC</createdTime>
-<ownerDesignName>Stocks</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<dataTypeScale>4</dataTypeScale>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2402132B-28A1-22D8-5A80-CC7EC07B080F" name="Company_Stocks_PK">

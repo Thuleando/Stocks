@@ -21,6 +21,18 @@
 <colAssociation fkAssociation="830138B7-1111-8940-9934-0D7A018A3901" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
 </associations>
 </Column>
+<Column name="IPO_Valuation" id="2D76AC5E-0279-598A-95F6-6BAEAB76FB93">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 19:09:02 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="FC491C7E-922B-BCF2-7B26-045EEF81ACE3" name="Companies_PK">

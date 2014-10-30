@@ -5,6 +5,7 @@
    <object objectType="Table" objectID="248FB85E-F53D-A702-EEEA-02DE920E6B32" name="Buy_Offers" seqName="seg_0"/>
    <object objectType="Table" objectID="9761AA47-1569-6526-4BFF-654A1E75D7D8" name="Clients" seqName="seg_0"/>
    <object objectType="Table" objectID="5382600E-FF56-7EDD-1810-326864224623" name="Companies" seqName="seg_0"/>
+   <object objectType="Table" objectID="93DA6B52-0D44-EB9F-7463-5441F9EC76D3" name="Company_Symbols" seqName="seg_0"/>
    <object objectType="Table" objectID="9DDF9A85-13F2-D684-014B-EDD2D24BC16F" name="Contact_Infos" seqName="seg_0"/>
    <object objectType="Table" objectID="169246F1-ED11-FC76-60FE-08526DA30F76" name="Holdings" seqName="seg_0"/>
    <object objectType="Table" objectID="9CCDCF16-7652-6899-6BF7-364F635E7587" name="Listed_Companies" seqName="seg_0"/>
@@ -12,6 +13,7 @@
    <object objectType="Table" objectID="0F83A52F-B26C-FB37-59D7-DAF05587F26C" name="Stock_Attributes" seqName="seg_0"/>
    <object objectType="Table" objectID="303C2210-9291-5508-81D8-919701565E74" name="Stock_Listings" seqName="seg_0"/>
    <object objectType="Table" objectID="479B01D0-1710-7986-B3C5-2397215F5665" name="Stock_Types" seqName="seg_0"/>
+   <object objectType="Table" objectID="04A93FD0-F210-33F4-C7EA-542B1D62C886" name="Ticker_Symbols" seqName="seg_0"/>
    <object objectType="Table" objectID="00BDD106-BBB7-CFA2-737E-0B772A55C872" name="Transaction_Participants" seqName="seg_0"/>
    <object objectType="Table" objectID="5CD399D9-02E7-F40B-63D9-A5659F657820" name="Transactions" seqName="seg_0"/>
    <object objectType="Table" objectID="5A6011E0-E9E2-CCAF-5B9A-8C7CB8FC8F1A" name="Treasury_Transactions" seqName="seg_0"/>
@@ -26,13 +28,16 @@
    <object objectType="FKIndexAssociation" objectID="EAEFFD3D-0B38-2824-915D-35766099F584" name="Clients_Contact_Infos_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="830138B7-1111-8940-9934-0D7A018A3901" name="Companies_Company_Stocks_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="3E170760-D561-DE7D-E529-A6248E2FE003" name="CompanyStock_Contact Info_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="B8C5F8BA-E24D-36CF-53B4-4D75CAA4F762" name="Stock_Listings_Stock_Types_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2256C719-2492-5B98-D1DD-90BD81FC29FB" name="Company_Symbols_Listed_Companies_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B65AA372-C948-2C03-5CCF-46567FDFF166" name="Company_Symbols_Stock_Types_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="871FDEB2-7062-0E6B-7CAB-1950A8E1DAF5" name="Company_Symbols_Ticker_Symbols_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="77E42855-D451-D62B-1518-71D504A3C81A" name="Holdings_Clients_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="B9AA1A68-2169-3955-6811-855021253E27" name="Holdings_StockType_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C7A3CA0F-5785-7602-A8C2-F606AB226A30" name="Sell_Offers_Clients_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="7DD92607-E0C6-9CA3-CB8B-53C15E8E8EC5" name="Sell_Offers_Company_Stocks_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="87C7311A-ADC6-5F0F-2A2E-F6CBD9F96FF0" name="Sell_Offers_Stock_Types_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="0FF12A0C-3BF0-11C7-C98F-4231B3B831D2" name="Stock_Listings_Companies_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B8C5F8BA-E24D-36CF-53B4-4D75CAA4F762" name="Stock_Listings_Stock_Types_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="9800D1C7-CFBE-4EF7-2D3C-7FEB43F93CA5" name="TransactionParticipants_Contact Info_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="2F05D0B8-112F-18BA-C206-E5C45990B435" name="TransactionParticipants_Transaction_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="91FBE9C7-9507-4B90-0A4E-CFB0D9CB8D40" name="Transaction_CompanyStock_FK" seqName="seg_0"/>
