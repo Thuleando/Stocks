@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9761AA47-1569-6526-4BFF-654A1E75D7D8" name="Clients">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:31:10 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:25:26 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contact_Infos_ID" id="74179BFB-AE80-C3F1-F494-B8061BA0BDE7">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:31:41 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>69503563-D51E-7061-976A-694B7120FD57</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAEFFD3D-0B38-2824-915D-35766099F584" referredColumn="69503563-D51E-7061-976A-694B7120FD57"/>
+</associations>
+</Column>
+<Column name="Companies_ID" id="E358D409-7BED-3857-CFFF-E3E8FC2D586D">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:21:10 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>C8B1C8C9-1C49-F534-1453-68F091B1C5C4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9B0D689-635E-A25D-00D4-BD270928B3FF" referredColumn="C8B1C8C9-1C49-F534-1453-68F091B1C5C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A022E4C-6163-77C7-570E-152678D28B2A" name="Clients_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:33:18 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="837C8F65-67E4-0B0B-267F-8BFD824C54D9" name="Clients_Contact_Infos_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:31:41 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74179BFB-AE80-C3F1-F494-B8061BA0BDE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51DA4331-DAAE-75DE-2F53-F8B43C80A86B" name="Clients_Companies_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:21:10 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E358D409-7BED-3857-CFFF-E3E8FC2D586D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

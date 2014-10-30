@@ -16,19 +16,19 @@
 <dataTypeSize>20</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Company_Stocks_ID" id="91D2210B-4531-D3C0-F9F0-C04B6D69A311">
+<Column name="Companies_ID" id="F50C173A-B082-BE5F-B005-B1146B55DA41">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 17:18:16 UTC</createdTime>
+<createdTime>2014-10-30 01:38:34 UTC</createdTime>
 <ownerDesignName>Stocks</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<delegate>C8B1C8C9-1C49-F534-1453-68F091B1C5C4</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AC2DF3DC-6242-362A-B311-A07663DBBBED" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+<colAssociation fkAssociation="A8EECEBB-76C6-497B-155E-7834C24F94E9" referredColumn="C8B1C8C9-1C49-F534-1453-68F091B1C5C4"/>
 </associations>
 </Column>
 <Column name="TotalShares" id="14386EA4-D5D8-31E7-5915-7F9E3B124178">
@@ -62,14 +62,14 @@
 <colUsage columnID="124A2116-F958-8483-DA0F-8BF818368451"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DEC29B60-0D3E-77F5-51E4-41979782C4EF" name="AuthorizedShares_CompanyStock_FK">
+<ind_PK_UK id="8CAC8288-F32D-16DA-D437-791F4DE7DF9B" name="Authorized_Shares_Companies_FK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 17:18:16 UTC</createdTime>
+<createdTime>2014-10-30 01:38:34 UTC</createdTime>
 <ownerDesignName>Stocks</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="91D2210B-4531-D3C0-F9F0-C04B6D69A311"/>
+<colUsage columnID="F50C173A-B082-BE5F-B005-B1146B55DA41"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

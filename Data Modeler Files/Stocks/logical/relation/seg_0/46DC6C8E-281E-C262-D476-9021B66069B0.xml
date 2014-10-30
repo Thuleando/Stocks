@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stock_Listings_Companies_FK" directorySegmentName="seg_0" id="46DC6C8E-281E-C262-D476-9021B66069B0">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:29:03 UTC</createdTime>
+<generatorID>0FF12A0C-3BF0-11C7-C98F-4231B3B831D2</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<sourcePk>AE637574-545F-A4C7-BE01-9C13086D8846</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E96870D-F4E2-E51F-A546-561309C775DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7441222-3DF3-DC3E-C543-C5E5BDEFE85D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

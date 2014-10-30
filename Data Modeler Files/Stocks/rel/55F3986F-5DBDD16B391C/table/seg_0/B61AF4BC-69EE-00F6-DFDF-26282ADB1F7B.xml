@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B61AF4BC-69EE-00F6-DFDF-26282ADB1F7B" name="Sell_Offers">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:10:39 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="99783091-0686-4A5A-A0CF-108F0940C450">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:13:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Listed_Companies_ID" id="08E3F2BF-801F-ACBD-BC74-3E7E2DD5C057">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:25:26 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD92607-E0C6-9CA3-CB8B-53C15E8E8EC5" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+</associations>
+</Column>
+<Column name="Stock_Types_ID" id="60A9DE65-1A62-6C89-28D5-85C25BC27E52">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:12:44 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>70F1D7A3-76D4-3431-B2D0-9477284E20C7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87C7311A-ADC6-5F0F-2A2E-F6CBD9F96FF0" referredColumn="70F1D7A3-76D4-3431-B2D0-9477284E20C7"/>
+</associations>
+</Column>
+<Column name="Clients_ID" id="5E07C882-5130-F86A-DAB7-AEA58C51E69D">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:25:35 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7A3CA0F-5785-7602-A8C2-F606AB226A30" referredColumn="2102E711-AB0B-8D8A-E2A4-1E4A965D4CFB"/>
+</associations>
+</Column>
+<Column name="OfferDate" id="A9B997CE-8A4B-E5AB-06AE-B62DF80BE88C">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:16:45 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumOfShares" id="B0BD3703-CA37-7E42-F3ED-0FD3E65FA594">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:16:45 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExpirationDate" id="C3EA5C2F-B229-51FB-AB50-6F3C236D69F6">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:16:45 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="07CC78D4-B748-7A92-63E8-8B9CC1FFA96C">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:16:45 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA158CCE-0963-3B16-4983-C3F49AA0FE06" name="Sell_Offers_PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:13:20 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99783091-0686-4A5A-A0CF-108F0940C450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="845EDEDF-EFE0-855B-C564-AC1CA9BA2955" name="Sell_Offers_Company_Stocks_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:25:26 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E3F2BF-801F-ACBD-BC74-3E7E2DD5C057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D70A0F1-9C05-5DCF-BFB8-884FBBC6CDE0" name="Sell_Offers_Clients_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 01:33:34 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E07C882-5130-F86A-DAB7-AEA58C51E69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8EA7C57-5718-3F9D-A129-13AE55137760" name="Sell_Offers_Stock_Types_FK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:12:44 UTC</createdTime>
+<ownerDesignName>Stocks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60A9DE65-1A62-6C89-28D5-85C25BC27E52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

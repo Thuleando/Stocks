@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E96870D-F4E2-E51F-A546-561309C775DF" name="Companies">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:29:03 UTC</createdTime>
+<generatorID>5382600E-FF56-7EDD-1810-326864224623</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Company Stocks ID" id="3D4ACCFE-5715-5946-2A64-91A0320F8E11">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:29:03 UTC</createdTime>
+<generatorID>EBC273B4-3D3C-C5A1-01D3-B6730FC28F79</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<referedAttribute>CE099AEA-AA72-B1AA-DA52-E02CA6945D6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE637574-545F-A4C7-BE01-9C13086D8846" name="Companies PK">
+<createdBy>Jason</createdBy>
+<createdTime>2014-10-30 02:29:03 UTC</createdTime>
+<generatorID>FC491C7E-922B-BCF2-7B26-045EEF81ACE3</generatorID>
+<ownerDesignName>Stocks</ownerDesignName>
+<engineerTo>
+<item key="55F3986F-8827-9EA4-8B47-5DBDD16B391C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EBC273B4-3D3C-C5A1-01D3-B6730FC28F79</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

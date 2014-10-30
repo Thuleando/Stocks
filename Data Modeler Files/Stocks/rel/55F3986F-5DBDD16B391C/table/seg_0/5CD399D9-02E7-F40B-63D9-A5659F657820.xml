@@ -16,7 +16,7 @@
 <dataTypeSize>20</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Company_Stocks_ID" id="F387BD96-FB9B-FC2A-9AB7-D214321FBCBB">
+<Column name="Listed_Companies_ID" id="F387BD96-FB9B-FC2A-9AB7-D214321FBCBB">
 <createdBy>Jason</createdBy>
 <createdTime>2014-10-17 02:57:59 UTC</createdTime>
 <ownerDesignName>Stocks</ownerDesignName>

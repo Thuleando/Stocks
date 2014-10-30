@@ -16,19 +16,19 @@
 <dataTypeSize>20</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Company_Stocks_ID" id="0FCCA699-A7A0-ED28-814C-DA2835655195">
+<Column name="Companies_ID" id="48609C7B-805E-71EF-7EDD-6ACD9CFA7E55">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 17:18:53 UTC</createdTime>
+<createdTime>2014-10-30 01:38:40 UTC</createdTime>
 <ownerDesignName>Stocks</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<delegate>07F35B65-EB05-64BF-2D13-01861F805E1C</delegate>
+<delegate>C8B1C8C9-1C49-F534-1453-68F091B1C5C4</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1DD12E02-4BF7-58D7-F247-8E1BD8B8C785" referredColumn="07F35B65-EB05-64BF-2D13-01861F805E1C"/>
+<colAssociation fkAssociation="41CA0CD0-FDB7-98D9-B3EE-6092AA0312B8" referredColumn="C8B1C8C9-1C49-F534-1453-68F091B1C5C4"/>
 </associations>
 </Column>
 <Column name="Date" id="AB86B05F-3954-1CF1-5EA8-49D004E40D94">
@@ -71,14 +71,14 @@
 <colUsage columnID="0FE8DAFD-4A75-FAAD-F4D0-1D25E6C6673E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="46C5E906-C7B8-FE5C-F650-8F0ACD4ED580" name="TreasuryTransactions_CompanyStock_FK">
+<ind_PK_UK id="CD36485B-9DC1-4003-CE56-E18C87693EBC" name="Treasury_Transactions_Companies_FK">
 <createdBy>Jason</createdBy>
-<createdTime>2014-10-24 17:18:53 UTC</createdTime>
+<createdTime>2014-10-30 01:38:40 UTC</createdTime>
 <ownerDesignName>Stocks</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0FCCA699-A7A0-ED28-814C-DA2835655195"/>
+<colUsage columnID="48609C7B-805E-71EF-7EDD-6ACD9CFA7E55"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

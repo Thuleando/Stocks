@@ -1,26 +1,39 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="829ED460-B2AF-B846-FDD1-E25D950DA1B3" name="Attributes By Type" seqName="seg_0"/>
-   <object objectType="Entity" objectID="99092D9A-CCED-D501-0603-40184A444F76" name="Authorized Shares" seqName="seg_0"/>
-   <object objectType="Entity" objectID="155FA142-1F1A-2DE7-5DED-99385D0E1FAA" name="Company Stocks" seqName="seg_0"/>
-   <object objectType="Entity" objectID="D1A09094-1FC3-320D-5597-EE4B42F781A9" name="Contact Infos" seqName="seg_0"/>
-   <object objectType="Entity" objectID="347AE20D-362E-08DF-488D-4107B83EEF3B" name="Holdings" seqName="seg_0"/>
-   <object objectType="Entity" objectID="B68BBA4F-14F0-692B-A057-BAF6065DC00E" name="Stock Attributes" seqName="seg_0"/>
-   <object objectType="Entity" objectID="6319B04B-024B-6E51-A166-B585F9074415" name="Stock Listings" seqName="seg_0"/>
-   <object objectType="Entity" objectID="8676C94F-8FD8-AA7A-479B-D4D30B6B23A4" name="Stock Types" seqName="seg_0"/>
-   <object objectType="Entity" objectID="CCE191CA-ACF9-CB8F-4408-D90057DE9C66" name="Transaction Participants" seqName="seg_0"/>
-   <object objectType="Entity" objectID="6FB76A6A-E609-0CC0-537E-8D050C41601A" name="Transactions" seqName="seg_0"/>
-   <object objectType="Entity" objectID="0957D362-C492-0104-DF8F-673B1C0980F2" name="Treasury Transactions" seqName="seg_0"/>
-   <object objectType="Relation" objectID="41D5A865-370D-0F38-C662-D0033A8A364C" name="AttributesByType_StockType_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="844BB5A2-ECD2-8FAE-2E61-997F1A0E398E" name="AttributesByType_Stock_Attributes_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="61DFD16C-9131-0006-3E1A-75AFC5808F06" name="AuthorizedShares_CompanyStock_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="361262D5-0B7E-3489-87D2-C2CCD749E8D4" name="CompanyStock_Contact Info_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="1FB14C51-3FA3-8611-F79A-0110DC63F3D5" name="Holdings_Contact Info_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="15A4BD64-D3D0-462F-6D25-3B05E31BDE93" name="Holdings_StockType_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="8C5B840B-EF55-3AA2-ADB6-C732F7ECD832" name="StockListing_CompanyStock_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="8C57C003-155F-C9F6-ECA4-5E766A2BED2D" name="TransactionParticipants_Contact Info_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="D8475392-F4B9-1AD1-03E1-D1C831E84898" name="TransactionParticipants_Transaction_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="EC6EDE4D-2BCD-AD7B-E749-523D7716E2DC" name="Transaction_CompanyStock_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="321CFDD3-EC0A-0B66-C6D6-72EF6616CFB6" name="TreasuryTransactions_CompanyStock_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="D5D09DA4-CB6D-6F2B-9C8A-4A1D34C8F0AB" name="TypeName" seqName="seg_0"/>
+   <object objectType="Entity" objectID="395C3441-A20E-9ADB-6F91-E6A40B5D8AA8" name="Attributes By Type" seqName="seg_0"/>
+   <object objectType="Entity" objectID="62121F16-65CD-821B-4E99-DFD214D28535" name="Authorized Shares" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F1273ABD-663C-ED98-B9B6-443B7344AA9A" name="Buy Offers" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FE219E79-2D96-DCE8-23D4-3A895BDF0C33" name="Clients" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4E96870D-F4E2-E51F-A546-561309C775DF" name="Companies" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A65F1F4D-9F00-371D-2560-AF14B207CDBF" name="Contact Infos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D60363F4-DD02-56D3-4EF7-EE57F0D28344" name="Holdings" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4703C85A-B0A0-CBAA-0C3C-DDB7E0FBFF7D" name="Listed Companies" seqName="seg_0"/>
+   <object objectType="Entity" objectID="143278EC-E72B-5A36-1F8F-0A34D8B9369B" name="Sell Offers" seqName="seg_0"/>
+   <object objectType="Entity" objectID="28D83F9D-7EA0-1EEC-84BF-EE88EE8ED0C0" name="Stock Attributes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C7441222-3DF3-DC3E-C543-C5E5BDEFE85D" name="Stock Listings" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BF20CF62-440C-C26F-9386-1FCE2F34DC85" name="Stock Types" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8EF180F1-E834-40EA-1F65-C35E498731BA" name="Transaction Participants" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E8975629-D00D-0575-165B-057F29067206" name="Transactions" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D38B1650-E62D-3041-693E-2F97D78E1EAF" name="Treasury Transactions" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4AF836CC-AA0C-21F1-38ED-E690204BD433" name="AttributesByType_StockType_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="42B05DBF-231E-8B8E-74C0-0B8AF58429EA" name="AttributesByType_Stock_Attributes_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D8815080-F8DC-221C-A211-6E134CDE7FA1" name="Authorized_Shares_Companies_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="70E132AC-F7F4-0F08-1F21-4750BF136716" name="Buy_Offers_Clients_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="12BD4FEC-DA32-716B-DFBD-29E2FEBDC87C" name="Buy_Offers_Company_Stocks_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="82346275-4827-3F19-E9A4-97BC8847106D" name="Buy_Offers_Stock_Types_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2D216068-1B38-EE1A-BFF5-D9E94FEE5BE9" name="Clients_Companies_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B5637BDA-A3C0-6CDF-DDD1-59E7212BCA2D" name="Clients_Contact_Infos_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EBC273B4-3D3C-C5A1-01D3-B6730FC28F79" name="Companies_Company_Stocks_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="925A7BAD-2949-E0C5-23EB-4A217A29015D" name="CompanyStock_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C71DEA50-25C6-E361-09A1-5D897D950C17" name="Holdings_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="96BD0892-357F-037E-9569-822C720B81B3" name="Holdings_StockType_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5DEB2268-47D9-7842-3916-C9D0A1F72D3C" name="Sell_Offers_Clients_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="048A0C30-1F30-52B7-9B9D-9E6E568189D8" name="Sell_Offers_Company_Stocks_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BE5A8542-0E7F-3240-CE7C-68C82900EE13" name="Sell_Offers_Stock_Types_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="46DC6C8E-281E-C262-D476-9021B66069B0" name="Stock_Listings_Companies_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F441CA4D-2E30-C445-CFAB-3E8965F3626B" name="TransactionParticipants_Contact Info_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1D61DE26-0293-54BB-2628-BB9475161004" name="TransactionParticipants_Transaction_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B5C571C3-0226-B1FF-6B03-D39B9C779CD3" name="Transaction_CompanyStock_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E8D1EA93-D6F9-C3E7-D13C-CB45E278FEA9" name="Treasury_Transactions_Companies_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="143FD8EB-5A5C-1531-811E-C9F5B46D0007" name="TypeName" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
